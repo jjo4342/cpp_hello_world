@@ -7,11 +7,11 @@ set(CMAKE_CXX_EXTENSIONS OFF)
 set(CMAKE_VERBOSE_MAKEFILE ON)
 
 project(
-  CPP_PROJECT_TEMPLATE
+  CCP_HELLO_WORLD
   LANGUAGES CXX
   VERSION 1.0.0
-  DESCRIPTION "C++ Project Template"
-  HOMEPAGE_URL "studio.holyground.com"
+  DESCRIPTION "Print Hello World using Library"
+  HOMEPAGE_URL "https://github.com/jjo4342/cpp_hello_world"
 )
 message(STATUS)
 message(STATUS "Started all process in ${PROJECT_NAME} CMakeLists.txt.")
@@ -92,6 +92,7 @@ add_subdirectory(${${PROJECT_NAME}_MODULE_PATH})
 add_subdirectory(${${PROJECT_NAME}_APPLICATION_PATH})
 
 set(${PROJECT_NAME}_SOURCE_FILES
+
   # ! Add source files here
 )
 
