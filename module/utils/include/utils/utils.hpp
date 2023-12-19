@@ -1,3 +1,3 @@
 #include <string>
 
-void Print (const std::string& message);
+void PrintInTerminal(const std::string &message);
