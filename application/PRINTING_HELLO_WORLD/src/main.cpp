@@ -1,7 +1,7 @@
-#include <string>
 #include "utils/utils.hpp"
+#include <string>
 
-int main(){
-    Print("Hello World!");
-    return 0;
+int main() {
+  PrintInTerminal("Hello World!");
+  return 0;
 }
